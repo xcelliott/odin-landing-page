@@ -3,9 +3,49 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <title>Odin Landing</title>
 </head>
 <body>
-    <h1>Hello</h1>
+    <div class="container">
+        <div id="menu-bar" class="">
+            <a href="#" class="logo-home">CozmicOnline</a>
+            <a href="#">menu item 1</a>
+            <a href="#">menu item 2</a>
+            <a href="#">menu item 3</a>
+        </div>
+        <div id="body-content">
+            <section id="hero-banner">
+                <div class="row">
+                    <div class="col-md-6">
+                        <h1>Hello, this is my page.</h1>
+                        <p>Here is some content on my page, some hero subtext if you will. I am making a landing page for the Odin Project and this is my page. The theme will be castles I guess.</p>
+                        <a href="#">Sign Up</a>
+                    </div>
+                    <div class="col-md-6">
+                        <img src="./assets/castle-1.jpg" width="100%">
+                    </div>
+                </div>
+                
+
+            </section>
+        </div>
+    </div>
+    
 </body>
 </html>
+
+<style>
+    #menu-bar {
+        display: flex;
+        gap: 20px;
+    }
+    #menu-bar .logo-home {
+        margin-right: auto;
+    }
+    #hero-banner .row {
+        display: flex;
+        align-items: center;
+    }
+
+</style>
