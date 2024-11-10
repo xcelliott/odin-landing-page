@@ -94,7 +94,7 @@ body {
 }
 
 .button-div {
-    flex-basis: 200px;
+    margin-left: auto;
 }
 
 .button-div a {
